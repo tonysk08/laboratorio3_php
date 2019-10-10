@@ -3,12 +3,7 @@
     include('cookie\sesion.php');
 
     //se capturan los valores emviados y se guardan en variables
-    $name=$_POST['name'];
-    $lastName=$_POST['lastName'];
-    $dni=$_POST['dni'];
-    $pagoXhora=$_POST['pagoXhora'];
-    $horasXsemana=$_POST['horasXsemana'];
-
+    
     echo $name, "<br>";
     echo $lastName,"<br>";
     echo $dni, "<br>";
@@ -44,7 +39,4 @@
     $_SESSION['ImpustoRenta'] = ImpuestoRenta($salarioMensual);
     $_SESSION['SeguroSocial']=SeguroSocial($salarioMensual);
     $_SESSION['SeguroEducativo']=SeguroEducativo($salarioMensual);
-
-    //Redirecciona a la agina que muestra resultado
-    header("Location: result.php");
 ?>

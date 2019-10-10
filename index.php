@@ -3,7 +3,7 @@
     <!--empieza el formulario usando bootstrap-->
     <div class="container p-4">
         <h1>Formulario</h1>
-        <form action="calculate.php" method="POST">
+        <form action="result.php" method="POST">
             <!--Nombre y Apellio-->
             <div class="row form-group">
                 <div class="col-md-2">

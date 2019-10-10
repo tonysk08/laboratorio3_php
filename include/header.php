@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
 
         <!-- link de las cdns -->
-        <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css"> <!-- boostrap proveneinte  de BOOTSWATCH-->
+        <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css"> <!-- boostrap proveneinte  de BOOTSWATCH-->
         <script src="https://kit.fontawesome.com/a56554cd6b.js" crossorigin="anonymous"></script> <!-- link de los iconos desde fonawsome -->
         <link rel="stylesheet" href="css/style.css">
         
